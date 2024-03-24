@@ -111,6 +111,7 @@ dentro da div, simm  */
   border-radius: 10px;
   border: 1px solid white;
   width: 15em;
+  height: 250px;
   /* width: 70%; */
   /* 16px = 1em */
 }
@@ -120,4 +121,16 @@ dentro da div, simm  */
   width: 215px;
   font-size: 20px;
   margin-bottom: 50px; /* coloquei aqui para aumentar o espaçamento embaixo do parágrafo, para distanciar as noticias umas das outras*/
+}
+
+
+footer{
+  height: 100px;
+  background-color: #AC0C0C;
+}
+
+footer p{
+  text-align: center;
+  color: white;
+  font-size: 40px;
 }
