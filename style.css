@@ -54,10 +54,20 @@ h1{
     o outline n pode fazer isso, ele só pode aplicar 1 valor marromenos*/
     padding:4px;/*altura do conteúdo*/
     width:150px; /*largura*/
+    
   }
 
   #txtBusca::placeholder{
     color: #d9d9d97e;
+    
+  }
+
+  #menu {
+    cursor: pointer; /*para so colocar o mause em cima
+    quando eu passar o mause vai acontecer isso*/
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black; /*(sombra do hamburgue) */
   }
 
 /* ======== BODY ======== */
