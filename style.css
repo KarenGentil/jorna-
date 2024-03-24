@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ========= BARRA DE NAVEGAÇÃO ============= */
+header {
+  background-color: #AC0C0C;
+  display: flex; /* cuida do alinhamento dos itens de todos os itens dentro dele*/
+
+  align-items: center; /* alinha os itens na vertical, está configurado para alinha ao centro */
+
+  justify-content: space-around; /* alinha os itens na horizontal, deixando um espaçamento dentre as laterais deles*/
+  font-size: 10px;
+    /*  I vertical  - horizontal*/
+    
+}
+
+h1{
+    color: white;
+    font-family: "Noto Sans KR", sans-serif;/*fontes*/
+    font-size: 5em; /*cuida do tamanho da fonte*/
+    margin: 0;
+} 
+
+#divBusca{
+    background-color:#ffffff00; /*define a cor de fundo, juntamente com a transparência*/
+    border:solid 1px white; /*define a borda*/
+    border-radius:15px; /*define o arredondamento*/
+    color: #ffffff; /*cor da letra*/
+    width:200px; /*largura do conteúdo*/
+    
+    
+  }
+
+  #divBusca > i {
+    font-size: 15px;/*tamanho da letra*/
+    margin-left: 10px; /* espaçamento externo da esquerda*/
+  }
+  
+  
+  #txtBusca{
+    background-color:transparent;
+    margin-left:10px; /*espaçamento externo à esquerda (por causa do left)*/
+    font-style:italic; /*exato, está estilizando a fonte*/
+    font-size:15px; /*tamanho da fote*/
+    border:none; /*barda*/
+    color: #d9d9d9; 
+    outline: none; 
+    /* outline é uma borda previamente definida, para todos os inputs. Ele tem um porém, que ao contrário do border, que pode especificar cada lado como border-left, border-right.
+    
+    o outline n pode fazer isso, ele só pode aplicar 1 valor marromenos*/
+    padding:4px;/*altura do conteúdo*/
+    width:150px; /*largura*/
+  }
+
+  #txtBusca::placeholder{
+    color: #d9d9d97e;
+  }
+
+/* ======== BODY ======== */
+body{
+    background-color: #1E1E1E;
+}
+
+nav i{
+
+  font-size: 30px;
+  color: #d9d9d9
+
+  
+}
+
+#publi{
+  margin: 50px;
+ margin-left: 190PX;
+ width: 75%;
+
+}
+
+#foto_principal{
+  width: 75%;
+  margin: 55px;
+  margin-left: 190PX;
+}
+
+h2{
+  color: white;
+  font-size: 40px;
+  margin-left: 190px;
+  
+}
+
+/* o img especifica que é pra mudar algo que está 
+dentro da div, simm  */
+
+#noticias {
+  display: flex; 
+  justify-content: space-between; /*lado a lado*/
+  width: 87.5%; /*definindo a largura que as notícias terão uma da outra*/
+}
+
+/* tirei o S da classe noticias (agora fico noticia), então criei uma classe chamada noticias */
+.noticia {
+  margin-left: 190px;
+}
+
+.noticia img {
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 15em;
+  /* width: 70%; */
+  /* 16px = 1em */
+}
+/* seguinte, agora eu vou meter o loco, se liga na maracutaia */
+.noticia p{
+  color: rgb(255, 255, 255);
+  width: 215px;
+  font-size: 20px;
+  margin-bottom: 50px; /* coloquei aqui para aumentar o espaçamento embaixo do parágrafo, para distanciar as noticias umas das outras*/
+}
