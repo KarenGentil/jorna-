@@ -89,54 +89,45 @@ nav i{
   margin: 50px;
  margin-left: 190PX;
  width: 75%;
- object-fit: cover
 
 }
 
-.foto_principal{
-  display: flex;
-  justify-content: center;
-}
-
-.foto_principal img {
-  object-fit: cover;
-}
 
 h2{
   color: white;
   font-size: 40px;
-  padding: 0 100px;
+  margin-left: 190px;
   
 }
 
 /* o img especifica que é pra mudar algo que está 
 dentro da div, simm  */
 
-#noticias {
+p {
   display: flex; 
   justify-content: space-between; /*lado a lado*/
-  padding: 0 100px;
+  width: 87.5%; /*definindo a largura que as notícias terão uma da outra*/
 }
 
 /* tirei o S da classe noticias (agora fico noticia), então criei uma classe chamada noticias */
-.noticia {
-  object-fit: cover
+img {
+  margin-left: 190px;
 }
 
-.noticia img {
+#joias {
   border-radius: 10px;
   border: 1px solid white;
-  width: 15em;
-  height: 250px;
+  height: 450px;
+  margin-left: 19px;
+  
   /* width: 70%; */
   /* 16px = 1em */
 }
 /* seguinte, agora eu vou meter o loco, se liga na maracutaia */
-.noticia p{
+ p{
   color: rgb(255, 255, 255);
-  width: 215px;
   font-size: 20px;
-  margin-bottom: 50px; /* coloquei aqui para aumentar o espaçamento embaixo do parágrafo, para distanciar as noticias umas das outras*/
+ text-align: center;
 }
 
 

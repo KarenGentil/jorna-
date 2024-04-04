@@ -23,8 +23,9 @@ h1{
     color: white;
     font-family: "Noto Sans KR", sans-serif;/*fontes*/
     font-size: 3em; /*cuida do tamanho da fonte*/
-    margin: 0;
+    margin: 10px;
     text-decoration: none;
+   
 } 
 
 #divBusca{
@@ -85,6 +86,11 @@ nav i{
   
 }
 
+.karen{
+ 
+  display: flex; /*ativa o margin auto*/
+}
+                                                                        
 #publi{
   margin: 50px;
  margin-left: 190PX;
@@ -119,6 +125,9 @@ img {
   border: 1px solid white;
   height: 450px;
   margin-left: 19px;
+  margin: auto;
+
+  
   
   /* width: 70%; */
   /* 16px = 1em */
@@ -128,6 +137,7 @@ img {
   color: rgb(255, 255, 255);
   font-size: 20px;
  text-align: center;
+ margin: 40px;
 }
 
 

@@ -89,23 +89,19 @@ nav i{
   margin: 50px;
  margin-left: 190PX;
  width: 75%;
- object-fit: cover
 
 }
 
-.foto_principal{
-  display: flex;
-  justify-content: center;
-}
-
-.foto_principal img {
-  object-fit: cover;
+#foto_principal{
+  width: 75%;
+  margin: 55px;
+  margin-left: 190PX;
 }
 
 h2{
   color: white;
   font-size: 40px;
-  padding: 0 100px;
+  margin-left: 190px;
   
 }
 
@@ -115,12 +111,12 @@ dentro da div, simm  */
 #noticias {
   display: flex; 
   justify-content: space-between; /*lado a lado*/
-  padding: 0 100px;
+  width: 87.5%; /*definindo a largura que as notícias terão uma da outra*/
 }
 
 /* tirei o S da classe noticias (agora fico noticia), então criei uma classe chamada noticias */
 .noticia {
-  object-fit: cover
+  margin-left: 190px;
 }
 
 .noticia img {
